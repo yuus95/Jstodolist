@@ -1,0 +1,6 @@
+/* 글씨체 import */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nanum+Myeongjo:wght@700&family=Poppins:wght@500&family=Roboto:ital,wght@0,100;1,900&family=Syne+Tactile&display=swap');
+
+body{
+    font-family: 'Nanum Myeongjo', serif};
+}

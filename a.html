@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 부트스트랩 경로 설정 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./c.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- aria-label 속성은 현재 요소에 레이블을 정의하기 위해서 사용한다 -->
+    <!-- ARIA는 aria-decribedby 속성을 사용하여 설명을 컨트롤과 직접 연관시킵니다. -->
+    <!-- 아래 예제는 <div> 안의 문장이  <button> 요소를 설명하는 것을 보여줍니다. <button>의  aria-describedby 속성은 <div>의 id를 참조합니다. 
+
+        <button aria-describedby="descriptionRevert">Revert</button>
+        <div id="descriptionRevert">Reverting will undo any changes that have been made
+                                    since the last save.</div> -->
+    <div class="input-group mp3" style="width:50%">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">
+                데이터
+            </span>
+        </div>
+        <input id='input' type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        <button type="button" class="btn btn-primary btn-lg" id="button">입력</button>
+    </div>
+    <ul class ="list-group" id="list">
+        <li class="list-group-item"> Hello</li>
+    </ul>
+
+ 
+    
+    <script src="./b.js"></script>
+
+    <!--  bootstrap 경로설정  -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
